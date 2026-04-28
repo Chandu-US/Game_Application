@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="game-box">
+        <h1>🎮 Number Guessing Game</h1>
+        <p>Guess a number between 1 and 5</p>
+
+        <input type="number" id="guessInput" placeholder="Enter number">
+        <button onclick="sendGuess()">Guess</button>
+
+        <h2 id="message"></h2>
+        <p id="attempts">Attempts: 0</p>
+
+        <button onclick="location.reload()">Restart Game</button>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
